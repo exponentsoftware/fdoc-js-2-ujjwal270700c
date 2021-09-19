@@ -24,4 +24,4 @@ const ArrayOfCountryArray= (countries) =>{
     })
    return Country;
 }
-console.log(ArrayOfCountryArray(countries))
+console.log(ArrayOfCountryArray(countries));
