@@ -21,8 +21,7 @@ const ArrayOfCountryArray= (countries) =>{
         data.push(item.length)
         Country.push(data)
         data=[]
-        
     })
-    console.log(Country);
+   return Country;
 }
-ArrayOfCountryArray(countries)
+console.log(ArrayOfCountryArray(countries))
